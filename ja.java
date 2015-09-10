@@ -1,5 +1,6 @@
 /*
-** JA, pronounced as "YAH", as I prefer if you don't mind, is a tiny, handy and intuitive arithmetic command line calculator. You're more than welcome to fork it as your own project and make it something. Happy calculating! 
+** ja, pronounced as "YAH", as I prefer if you don't mind, is a tiny, handy and intuitive arithmetic command line calculator. 
+** You're more than welcome to fork it as your own project and make it something better. Happy calculating! 
 */
 
 // Copyright (C) 2015 by Leo Liu
@@ -21,7 +22,25 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-// Code:
+/* 
+** Recommendation for best utilisation of this little piece of java code:
+
+** Firstly, javac it into ja.class file in your machine.
+** Secondly, put it in the classpath of your system.
+** Thirdly, now you can use it in your whatever terminal by typing e.g. 
+** "java ja 45 p 3", which would give back "The result of 45 p 3 is 91125.0.".
+** Lastly, this is optional, but I suggest you do it, because it will definitely
+** save you a lot of typing if you use it a lot. You just set an alias "ja"
+** for "java ja" in your .bashrc or .zshrc, profile.ps1 for powershell or some
+** .bat file for the initialisation of cmd in Windows. After this step, you 
+** can now just type e.g. "ja 889 / 7" to get the answer of 889 over 7, All 
+** in one line.
+
+** Finally, don't forget "ja" should be pronounced as /ja:/, and it's the name
+** of a duck who happens to be irksome for some reason I can't figure out yet.
+*/
+
+// Source code:
 
 
 public class ja {
